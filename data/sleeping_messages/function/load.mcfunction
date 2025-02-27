@@ -1,3 +1,5 @@
-scoreboard objectives add sleeping_messages.player.sleep_timer dummy
+scoreboard objectives add sleeping_messages.messages.length dummy
+scoreboard objectives add sleeping_messages.config dummy
+scoreboard players set 1 sleeping_messages.config 1
 
-execute unless data storage sleeping_messages:config mesage run function sleeping_messages:config
+execute unless data storage sleeping_messages:config messages run function sleeping_messages:config

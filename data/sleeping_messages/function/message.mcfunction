@@ -1,1 +1,0 @@
-$tellraw @a [{"color":"$(player_message_color)","selector":"@s"},{"color":"$(message_color)","text":"$(message)"}]

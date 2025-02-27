@@ -39,7 +39,13 @@ Reset config:
 Custom message (example for Spanish):
 
 ```mcfunction
-/data modify storage sleeping_messages:config message set value " esta durmiendo!"
+/data modify storage sleeping_messages:config messages[0] set value " esta durmiendo!"
+```
+
+Add message:
+
+```mcfunction
+/data modify storage sleeping_messages:config messages append value " is zZzzZ..."
 ```
 
 Custom colors:
@@ -47,6 +53,12 @@ Custom colors:
 ```mcfunction
 /data modify storage sleeping_messages:config player_message_color set value "green"
 /data modify storage sleeping_messages:config message_color set value "white"
+```
+
+Bypass player sleeping message:
+
+``mcfunction
+/tag <player> add sleeping_messages.player.bypass
 ```
 
 Disable:
