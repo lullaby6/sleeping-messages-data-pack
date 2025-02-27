@@ -57,7 +57,7 @@ Custom colors:
 
 Bypass player sleeping message:
 
-``mcfunction
+```mcfunction
 /tag <player> add sleeping_messages.player.bypass
 ```
 
