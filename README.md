@@ -55,10 +55,16 @@ Custom colors:
 /data modify storage sleeping_messages:config message_color set value "white"
 ```
 
-Bypass player sleeping message:
+Disable sleeping messages for a player:
 
 ```mcfunction
-/tag <player> add sleeping_messages.player.bypass
+/tag <player> add sleeping_messages.player.disabled
+```
+
+Enable sleeping messages for a player:
+
+```mcfunction
+/tag <player> remove sleeping_messages.player.disabled
 ```
 
 Disable:
