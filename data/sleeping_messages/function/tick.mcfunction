@@ -1,1 +1,0 @@
-execute as @a[tag=!sleeping_messages.player.bypass] run function sleeping_messages:player/tick
