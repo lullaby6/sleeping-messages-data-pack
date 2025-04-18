@@ -12,16 +12,6 @@
 `Sleeping Messages` notifies all players when someone is sleeping.
 You can fully customize the message, change the text, adjust its color, and even modify the color of the player's name.
 
-Version: `1.21.X`
-
-## 📂 Installation
-
-Move the downloaded file in the path `.minecraft/saves/[world]/datapacks`
-
-## 👾 Bugs/Issues
-
-Please report any bug/issues to the [Discord Server](https://discord.gg/5UdcDa5xNC) in the `bugs` channel, or create a issue in the [Github Repostiroy](https://github.com/lullaby6/sleeping-messages-data-pack/issues).
-
 ## ⌨️ Commands
 
 See current config:
@@ -67,18 +57,11 @@ Enable sleeping messages for a player:
 /tag <player> remove sleeping_messages.player.disabled
 ```
 
-Disable:
-
-```mcfunction
-/datapack disable "file/sleeping-messages.zip"
-```
-
-Enable:
-
-```mcfunction
-/datapack enable "file/sleeping-messages.zip"
-```
 
 ## 🪪 License
 
 [MIT](https://github.com/lullaby6/sleeping-messages-data-pack/blob/main/LICENSE)
+
+## 👾 Bugs/Issues
+
+Please report any problem/bug/issues in the [Discord Server](https://discord.gg/5UdcDa5xNC).
